@@ -3,3 +3,5 @@
 TEST TEXT
 
 TESTTT
+
+New text fragment
