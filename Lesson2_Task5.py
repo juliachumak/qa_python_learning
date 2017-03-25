@@ -5,4 +5,4 @@ def check_triangle_existence(a, b, c):
         return False
 
 
-print(check_triangle_existence(28, 14, 37))
+# print(check_triangle_existence(28, 14, 37))

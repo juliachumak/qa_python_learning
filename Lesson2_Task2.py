@@ -27,3 +27,12 @@ print(words_list)
 
 sorted_list = sorted(words_list, key=lambda s: s.lower())
 print(sorted_list)
+
+
+def count_list_elements(list):
+    counted_elements = {}
+    for e in list:
+        counted_elements[e] = 1
+    return (counted_elements)
+
+print(count_list_elements(words_list))
