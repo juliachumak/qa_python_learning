@@ -66,7 +66,7 @@ class TriangleTests(unittest.TestCase):
     def test_three(self):
         self.assertFalse(check_triangle_existence(0, 1, 2))
 
-    def test_three(self):
+    def test_four(self):
         self.assertFalse(check_triangle_existence(3, 1, 2))
 
 if __name__ == "__main__":
