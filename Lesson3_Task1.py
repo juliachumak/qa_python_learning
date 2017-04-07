@@ -13,7 +13,7 @@ class Employee:
     def set_position(self, position):
         self.position = position
 
-    def set_salary(self,salary):
+    def set_salary(self, salary):
         self.salary = salary
 
     def set_experience(self, experience):
@@ -40,9 +40,9 @@ class Employee:
             return "Senior " + self.position
 
 
-employee_1 = Employee("Chumak Julia Vladimirovna", "QA", 1500, 3)
-
-print (employee_1.get_surname())
-print (employee_1.get_name())
-print(employee_1.calculate_salary(3))
-print(employee_1.get_position_level())
+# employee_1 = Employee("Chumak Julia Vladimirovna", "QA", 1500, 3)
+#
+# print (employee_1.get_surname())
+# print (employee_1.get_name())
+# print(employee_1.calculate_salary(3))
+# print(employee_1.get_position_level())
